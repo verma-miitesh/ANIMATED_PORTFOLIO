@@ -18,6 +18,8 @@
 
 .rightHome {
     width: 50%;
+    /* width: auto; */
+    flex: none;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -26,9 +28,14 @@
 }
 
 .rightHome img {
-    width: 60%;
+    min-height: 35rem;
+    max-height:40rem;
+    min-width: 25rem;
+    max-width: 35rem;
     filter: drop-shadow(2px 2px 20px rgb(116, 201, 255));
-    /* z-index: 10; */
+    z-index: 10;
+    position: relative;
+    object-fit: contain;
 }
 
 .homedetails {
@@ -87,8 +94,19 @@
     }
 
     .rightHome {
-        width: 100%;
+        /* width: 100%; */
+        flex: none;
         height: 50vh;
         align-items: end;
+        justify-content: center;
+    }
+    
+    .rightHome img {
+        height: 40vh;
+        width: 40vh;
+        max-height: 400px;
+        max-width: 400px;
+        min-height: 200px;
+        min-width: 200px;
     }
 }

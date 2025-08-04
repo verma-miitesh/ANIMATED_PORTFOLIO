@@ -57,7 +57,7 @@ function Home() {
         </div>
       </div>
       <div className="rightHome">
-        <img src={miitesh} alt="" style={{height:"550px",width:"425px"}}/>
+        <img src={miitesh} alt=""/>
       </div>
     </div>
   );
