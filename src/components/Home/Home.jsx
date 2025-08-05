@@ -57,7 +57,7 @@ function Home() {
         </div>
       </div>
       <div className="rightHome">
-        <img src={miitesh} alt=""/>
+        <img src={man} alt=""/>
       </div>
     </div>
   );
